@@ -1,0 +1,4 @@
+name: Nginx
+description: "Test Web App"
+version: v0.1
+category: "Web Apps"

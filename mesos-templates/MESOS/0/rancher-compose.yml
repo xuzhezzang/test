@@ -1,0 +1,8 @@
+version: '2'
+catalog:
+  name: "Nginx"
+  version: "v1.0"
+  description: "initialize"
+services:
+  nginx:
+    scale: 1

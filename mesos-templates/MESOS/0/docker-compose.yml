@@ -1,0 +1,10 @@
+version: '2'
+services:
+  nginx:
+    image: nginx:1.10
+    labels:
+      io.rancher.container.hostname_override: container_name
+    ports:
+    - 80:80
+    tty: true
+    stdin_open: true
